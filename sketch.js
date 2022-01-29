@@ -94,7 +94,7 @@ background(180);
   
     //jump when the space key is pressed
     if(keyDown("space")||touches.length>0) {
-        spaceShip.velocityY = -10;
+        spaceShip.velocityY = -9;
         jumpSound.play();
     }
     spaceShip.depth = bkg.depth
